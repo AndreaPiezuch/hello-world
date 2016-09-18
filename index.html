@@ -1,0 +1,68 @@
+
+<html>
+    <head>
+        <title> Form Validation:Demo Preview </title>
+        <meta name="robots" content="noindex, nofollow">
+
+        <link rel="stylesheet" type="text/css" href="formvalid2.css">
+		<script src="formvalid.js"></script>
+
+       
+    </head>
+    <body>
+
+        <div id="main">
+          
+            <div id="form_layout">
+                <h1>JavaScript Form Validation</h1>
+				
+	<!-- Form starts from here-->
+	<form  onsubmit='return formValidation()'><br><p id="head"></p><br>
+		<label>First Name:</label>
+		<input type='text' id='firstname'/><br />
+		<p id="p1"></p>	<!--This segment displays the validation rule for name--> 				
+		
+		<label>Last Name:</label>
+		<input type='text' id='lastname'/><br />
+		<p id="p1"></p>	<!--This segment displays the validation rule for name--> 
+		
+		<label>Username(6-8 characters):</label>
+		<input type='text' id='username' /><br />
+		<p id="p2"></p> <!--This segment displays the validation rule for user name--> 
+		
+		<label>Email:</label>
+		<input type='text' id='email' /><br />
+		<p id="p3"></p> <!--This segment displays the validation rule for email--> 
+		
+		<label>Country:</label>
+		 <select id='country'>
+			<option>Please Choose</option>
+			<option>America</option>
+			<option>Australia</option>
+			<option>Europe</option>
+			<option>Africa</option>
+		</select><br />
+		<p id="p4"></p> <!--This segment displays the validation rule for selection--> 
+
+		<label>Address:</label>
+		<input type='text' id='address' /><br />
+		<p id="p5"></p> <!--This segment displays the validation rule for address--> 
+
+		<label>Zip Code: </label>
+		<input type='text' id='zip' /><br />
+		<p id="p6"></p> <!--This segment displays the validation rule for zip--> 
+
+		<input type='submit' id="submit" value='Check Form'/><br />
+	</form>
+
+            </div>
+            <!-- Right side div -->
+            <div id="forgotpassword">
+                <a href=http://www.bluemix.com/app><img alt="Forgot Password?"/></a>
+            </div>
+
+            
+        </div>
+
+    </body>
+</html>
