@@ -6,4 +6,4 @@ applications:
   name: AndreasApp6
   host: AndreasApp6
   disk_quota: 1024M
-  buildpack: https://github.com/AndreaPiezuch/hello-world
+  buildpack: https://github.com/AndreaPiezuch/hello-world.git
